@@ -24,9 +24,7 @@ p {
     font-style: normal;
 }
 
-.logo {
-    display: inline-block;
-}
+
 
 .sign_buttons {
     display: inline-block;
@@ -146,7 +144,6 @@ h3 {
 
 .container2 {
     margin-top: 100px;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -169,9 +166,9 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 16px;
-    position: relative;
-    top: 45px;
+    margin-top: 45px;
 }
+
 .btn_singup_now:hover {
     transform: scale(1.5);
 }
@@ -212,7 +209,6 @@ h3 {
 .container3 {
     margin-top: 100px;
     position: relative;
-    /* top: 346px; */
     display: flex;
     justify-content: space-around;
 }
@@ -256,7 +252,41 @@ h6 {
 }
 
 .footer {
+    margin-top: 30px;
+    padding-top: 100px;
+    border-top: 1px solid #BCD0E5;
+    width: 100%;
     min-height: 308px;
-    display:inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 
+}
+
+
+.search {
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5 ;
+    position: relative;
+    top: 20px;
+}
+
+.footer_search {
+ max-height: 150px;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ column-gap: 100px;
+}
+
+.footer_search ul {
+    margin-top: 15px;
+}
+
+.logo {
+    align-self: flex-start;
+    position: relative;
+    top: 20px;
 }
